@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Enron Email Graph</title>
+  <!-- FONTS -->
+  <link href='//fonts.googleapis.com/css?family=Montserrat|Libre+Baskerville' rel='stylesheet' type='text/css'>
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="/public/stylesheets/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>ENRON EMAIL GRAPH</h1>
+    <noscript>
+      This page requires javascript.
+      Please change your browser settings to allow javascript.
+    </noscript>
+    <svg height="750" width="800"></svg>
+    <p class="source">
+      <a href="//www.cs.cmu.edu/~./enron/">
+        Enron email data
+      </a>
+       publicly released as part of FERC’s Western Energy Markets investigation
+    </p>
+    <div class="tooltip-container">
+      <div class="tooltip"></div>
+    </div>
+  </div>
+</body>
+
+<!-- JAVASCRIPT LIBRARIES -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+
+<!-- FALLBACKS -->
+<script>window.d3 || document.write('<script src="/public/javascripts/lib/d3.v3.min.js">\x3C/script>')</script>
+
+<!-- APPLICATION JAVASCRIPT -->
+<script src="/public/javascripts/graph.js"></script>
+</html>

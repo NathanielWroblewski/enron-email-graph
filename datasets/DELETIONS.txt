@@ -1,0 +1,16 @@
+For privacy reasons, my policy has been to remove emails from this
+collection when requested by the email's authors or recipients.
+Here's a history of removals:
+
+August 21, 2009.
+removed maildir/skilling-j/1584.
+
+April 2, 2011.
+removed these messages:
+  maildir/gay-r/all_documents/12. 
+  maildir/gay-r/all_documents/206. 
+  maildir/gay-r/all_documents/74. 
+  maildir/gay-r/sent/12. 
+  maildir/gay-r/sent/205. 
+  maildir/gay-r/sent/74. 
+
