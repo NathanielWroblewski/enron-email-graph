@@ -13,7 +13,7 @@
       .attr('viewBox', '0 0 ' + width + ' ' + height)
       .attr('preserveAspectRatio', 'YMid meet');
 
-  d3.json('/public/datasets/enron.json', function(error, graph) {
+  d3.json('/enron-email-graph/public/datasets/enron.json', function(error, graph) {
     force
         .nodes(graph.nodes)
         .links(graph.links)
